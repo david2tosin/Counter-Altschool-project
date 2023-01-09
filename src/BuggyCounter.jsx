@@ -18,6 +18,6 @@ export default class BuggyCounter extends React.Component {
       // Simulate a JS error
       throw new Error("I crashed!");
     }
-    return <h1 onClick={this.handleClick}>click twice: {this.state.counter}</h1>;
+    return <h1 className="link" onClick={this.handleClick}>Click me twice: {this.state.counter}</h1>;
   }
 }
