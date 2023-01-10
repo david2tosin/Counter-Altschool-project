@@ -56,7 +56,7 @@ const CounterTwo = () => {
           </Link>
         </p>
         <p>
-          <Link to="buggycounter" className="link">
+          <Link to="/buggycounter" className="link">
             Go to Buggy Counter
           </Link>
         </p>
